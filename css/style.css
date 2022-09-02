@@ -1,0 +1,125 @@
+/* Batrinath date: 02-09-2022 */
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+:root{
+    background-color: #2b2d42;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Nova Flat', cursive;
+}
+
+h1{
+    font-size: 5.4rem;
+    color: #FCEFEF;
+    margin-bottom: 5rem;
+}
+h2{
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.btn{
+    font-size: 2.4rem;
+    padding: 1em 0;
+    width: 15em;
+    text-align: center;
+    margin-bottom: 1em;
+    text-decoration: none;
+    color: #110403;
+    background: linear-gradient(90deg,#4ad66d,#3bb273);
+    border-radius: 4px;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #030303;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+#highscore-btn{
+    background: linear-gradient(90deg,#fcbf49,#f77f00);
+}
+.fa-crown, .fa-play,.fa-house{
+    font-size: 2.5rem;
+    margin-left: 0.5em;
+}
+
+/* End page Css */
+
+.end-form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input{
+    margin-bottom: 1em;
+    width: 20rem;
+    padding: 1.5em;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1em 1.4em 0 #3bb273;
+}
+
+input::placeholder{
+    color: #FCEFEF;
+    
+}
+
+#username{
+    margin-bottom: 3em;
+    width: 100%;
+    outline: none;
+}
+
+#end-text{
+    font-size: 2.4rem;
+    color: #FCEFEF;
+    text-align: center;
+}
+
+#saveScoreBtn{
+    border: none;
+}
+

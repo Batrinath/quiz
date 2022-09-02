@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz End</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Enter Your Name</h2>
+                <input type="text" name="name" id="username" placeholder="Dev..">
+                <button class="btn" id="saveScoreBtn" type="submit"
+                onClick="saveHighScore(event)" disabled>Save</button>
+            </form>
+            <a href="/game.html" class="btn">Play Again</a>
+            <a href="/" class="btn"><i class="fa-solid fa-house"></i> Go Home</a>
+        </div>
+    </div>
+    <script src="./js/end.js"></script>
+</body>
+</html>
